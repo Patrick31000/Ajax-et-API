@@ -17,6 +17,8 @@ $('#sendAjaxBtn2').click(function() {
             //var meteo = JSON.parse;
             var temperature = data.main.temp;
             var humidite = data.main.humidity;
+            console.log(temperature);
+            console.log(humidite);
 
             $("#meteo").append("il fait " + temperature + " C° et " + humidite + "% d'humidité à Toulouse")
 
